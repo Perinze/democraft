@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "democraft",
+  "version": "1",
 
   "name": "Example Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
@@ -14,16 +14,16 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/democraft/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleModKt::init"
+      "com.perinze.democraft.ExampleModKt::init"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "democraft.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.8.7",
